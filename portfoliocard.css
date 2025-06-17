@@ -1,0 +1,25 @@
+div{
+    height:350px;
+    width:300px;
+    padding:20px;
+    border: 2px black solid;
+    text-align:center;
+    background-color: #e6e214;
+}
+div:hover{
+    background-color: #e6c9c9;
+}
+img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+button{
+    border-color: black;
+    background-color: gray;
+    color:black
+}
+button:hover{
+    color:white;
+    background-color: #c98622;
+}
