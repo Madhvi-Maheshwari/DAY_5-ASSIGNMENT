@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise_6</title>
+</head>
+
+<style>
+    /* Step 2: Declare all CSS variables inside :root */
+:root {
+  --galaxy-text-color: #000;
+  --galaxy-bg: #cb5e5e;
+  
+  --solar-system-text: rgb(154, 84, 154);
+  --solar-system-bg: #fbe2e5;
+  
+  --planets-text: rgb(151, 102, 10);
+  --planets-bg: #f4ca85;
+}
+
+/* Step 3: Use CSS variables inside the ruleset for .galaxy */
+.galaxy {
+  color: var(--galaxy-text-color);
+  background-color: var(--galaxy-bg);
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* Step 4: Style .solar-system using corresponding variables */
+.solar-system {
+  color: var(--solar-system-text);
+  background-color: var(--solar-system-bg);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Step 5: Style .planets using its variables */
+.planets {
+  color: var(--planets-text);
+  background-color: var(--planets-bg);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+</style>
+
+<body>
+    <div class="galaxy">
+  Galaxy: Milky Way
+  <div class="solar-system">
+    Solar System: Our Home
+    <div class="planets">
+      Planets: Earth, Mars, Jupiter
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
