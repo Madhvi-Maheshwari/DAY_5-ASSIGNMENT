@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GlowGadget Pro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <style>
+        body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background: #f5f5f5;
+}
+
+section, header, footer {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+header {
+  background: url('https://via.placeholder.com/1600x400') no-repeat center center/cover;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ff416c;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #e60050;
+}
+
+.product-info img {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.product-info img:hover {
+  transform: scale(1.05);
+}
+
+
+.features {
+  background-color: #fff;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  background-color: #ffe0e9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.testimonials {
+  background-color: #f0f0f0;
+}
+
+.testimonial {
+  background: white;
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-left: 4px solid #ff416c;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+
+footer {
+  background-color: #222;
+  color: #ccc;
+  font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+  .feature-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 90%;
+  }
+
+  .cta {
+    padding: 10px 20px;
+  }
+
+  header {
+    padding: 40px 20px;
+  }
+}
+    </style>
+
+  <!-- Header -->
+  <header>
+    <h1>GlowGadget Pro</h1>
+    <p>The Ultimate Smart Device for Everyday Use</p>
+    <a href="#product" class="cta">Buy Now</a>
+  </header>
+
+  <!-- Product Info -->
+  <section id="product" class="product-info">
+    <h2>Introducing GlowGadget Pro</h2>
+    <p>GlowGadget Pro is your all-in-one smart assistant designed to simplify your life. With AI voice control, long battery life, and a sleek design, it's the perfect tech companion.</p>
+    <img src="https://via.placeholder.com/500x300" alt="GlowGadget Pro">
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <h2>Features</h2>
+    <div class="feature-list">
+      <div class="feature">🔥 AI-Powered Voice Assistant</div>
+      <div class="feature">🔋 48-Hour Battery Life</div>
+      <div class="feature">🎧 Immersive Audio Experience</div>
+      <div class="feature">📱 Compatible with All Devices</div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial">"Absolutely love it! Life has never been easier." – Aisha R.</div>
+    <div class="testimonial">"Top-notch quality and performance." – Rahul M.</div>
+    <div class="testimonial">"A must-have gadget for tech lovers." – Neha S.</div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 GlowGadget Inc. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
