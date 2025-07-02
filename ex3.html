@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise_3</title>
+</head>
+
+<style>
+    /* Headline positioning */
+#headline {
+  position: relative;
+  top: 0px;
+  left: 20px;
+}
+
+/* Main container setup */
+.parent {
+  position: relative;
+  background-color: #d2d2d2;
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  height: 500px;
+}
+
+/* Base styling for all notes */
+.note {
+  position: absolute;
+  padding: 10px;
+  width: 200px;
+  opacity: 0.9;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual note positioning */
+.task1 {
+  background-color: orange;
+  top: 120px;
+  left: 50px;
+}
+
+.task2 {
+  background-color: greenyellow;
+  top: 220px;
+  left: 150px;
+}
+
+.task3 {
+  background-color: royalblue;
+  color: white;
+  top: 360px;
+  left: 80px;
+}
+
+</style>
+
+<body>
+    <h3 id="headline">My Sticky Notes</h3>
+
+<div class="parent">
+  <div class="note task1">Complete Assignment</div>
+  <div class="note task2">Read CSS Guide</div>
+  <div class="note task3">Attend Meeting at 5</div>
+</div>
+
+</body>
+</html>
